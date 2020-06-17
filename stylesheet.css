@@ -169,10 +169,8 @@ header, footer {
 
     .product-detail {
       display: inline-block;
-      width: 50%;
-      bottom: 50%;
-      position: relative;
-      bottom: 19em;
+      width: 45%;
+      position: absolute;
       text-align: left;
     }
   }
