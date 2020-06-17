@@ -1,0 +1,192 @@
+html{
+    background: #f7f7f7;
+}
+
+body {
+    background: white;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(110, 103, 103);
+    text-align: center;
+}
+
+input [type="search"]{
+  width: 100%;
+}
+
+header, footer {
+    background: #d4c4ac;
+    color: white;
+    padding: 20px 10px;
+  }
+  
+  input[type="search"] {
+    width: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    line-height: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #96440e; 
+  }
+  
+  header li {
+    display: inline;
+    padding-left: 5px;
+  }
+  
+  header h1, nav {
+    display: inline-block;
+  }
+  
+  header h1 {
+    width: 100%;
+  }
+  
+  .product {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .button {
+    padding: 10px;
+    display: inline-block;
+    background: #d4c4ac;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  
+  
+  /* Product detail page */
+  .product-detail {
+    width: 66%;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .product-detail img {
+    max-width: 50%;
+    float: left;
+    padding:5px 15px 5px 0px;
+  }
+
+  
+
+  /* Contact us */
+  form {
+    padding: 10px;
+    margin: 10px 0;
+
+  }
+  
+  form > div {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .inline label {
+    display: inline-block;
+    width: 100px;
+    padding: 0px 0px 5px 0px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    width: 90%;
+  }
+  
+
+
+  @media (min-width: 800px) {
+  
+    input[type="search"] {
+      width: 40%;
+      margin-left: 2em;
+    }
+  
+    .product {
+      display: inline-block;
+      width: 48%;
+    }
+
+    .product-detail {
+      display: inline-block;
+    }
+  
+  }
+  
+  @media (min-width: 1000px) {
+    body {
+      text-align: left;
+    }
+  
+    header h1 {
+       width: 60%;
+    }
+  
+    main {
+      width: 68%;
+      display: inline-block;
+      padding: 10px;
+    }
+  
+    aside {
+      width: 27%;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    .product-detail-main {
+      width: 96%;
+      padding: 20px;  
+    }
+
+    .product-detail {
+      display: inline-block;
+      width: 50%;
+      bottom: 50%;
+      position: relative;
+      bottom: 19em;
+      text-align: left;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      max-width: 80vw;
+    }
+  
+    .product {
+      width: 30%;
+    }
+  
+    input[type="search"] {
+      width: 20%;
+    }
+  }
